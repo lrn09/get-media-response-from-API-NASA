@@ -1,6 +1,6 @@
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class ApiNasa {
+public class GetMediaResponse {
     private final String copyright;
     private final String date;
     private final String explanation;
@@ -10,7 +10,7 @@ public class ApiNasa {
     private final String title;
     private final String url;
 
-    public ApiNasa(
+    public GetMediaResponse(
             @JsonProperty("copyright") String copyright,
             @JsonProperty("date") String date,
             @JsonProperty("explanation") String explanation,
